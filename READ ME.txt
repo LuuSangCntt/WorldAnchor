@@ -1,0 +1,20 @@
+
+How to use it?
+
+Step 1:
+Create an empty Object, rename it and add WorldAnchorManager.cs
+
+Step 2:
+Add AnchorController to the Object you want to add WorldAnchor, 
+Assign the WorldAnchorManager in Step on to it.
+Give the Anchor an Id in AnchorId
+
+Step 3:
+Create two buttons to call the functions "AnchorController.EnableEditMode" and "AnchorController.DisableEditModeAndSave"
+
+Or you can also call the functions in events of "ManipulationHandler.cs"
+
+Step 4:
+Build and Test your app.
+
+Note: It doesn't work in the EditMode of Unity. You need to build the project and run in Hololens 2 device
